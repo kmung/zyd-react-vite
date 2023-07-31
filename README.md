@@ -1,3 +1,3 @@
 # Zomi Youth Development React + Vite
 
-This app is built with (https://react.dev/)[React] and (https://vitejs.dev/)[Vite].
+This app is built with [React](https://react.dev/) and [Vite](https://vitejs.dev/).
