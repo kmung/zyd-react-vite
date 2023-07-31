@@ -1,0 +1,8 @@
+header {
+    background-color: #eee;
+    display: flex;
+}
+
+.logo img {
+    max-width: 160px;
+}
