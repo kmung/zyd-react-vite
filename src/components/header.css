@@ -9,7 +9,12 @@ header {
     gap: 4px;
 }
 
-.logo > img {
+/* for later */
+.brand {
+    margin: 0;
+}
+
+#logo {
     max-width: 14em;
 }
 

@@ -1,22 +1,25 @@
+import { Link } from 'react-router-dom';
 import './header.css';
+import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 import logoNoBg from '../assets/yd_logo-removebg.png';
 
 function Header() {
     return (
         <header>
-            <a className='logo' href='/'>
-                <img src={logoNoBg} alt='ZYD logo'/>
-            </a>
+            <Link to='/' className='brand'>
+                <img id='logo' src={logoNoBg} alt='ZYD logo'/>
+            </Link>
             <nav className='menu'>
                 <ul className='menus'>
                     <li>
-                        <a href='/'>Home</a>
+                        <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <a href='#'>About</a>
+                        <Link to='/about-us'>About Us</Link>
                     </li>
                     <li>
-                        <a href='#'>Contact Us</a>
+                        <Link to='/contact-us'>Contact Us</Link>
                     </li>
                 </ul>
             </nav>
