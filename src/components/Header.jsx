@@ -1,23 +1,25 @@
 import './header.css';
-import logo from '../assets/yd_logo.jpg';
+import logoNoBg from '../assets/yd_logo-removebg.png';
 
 function Header() {
     return (
         <header>
-            <div className='logo'>
-                <a href='/'>
-                    <img src={logo} />
-                </a>
-            </div>
-            <div className='menu'>
-                <ul className='menu-navs'>
+            <a className='logo' href='/'>
+                <img src={logoNoBg} alt='ZYD logo'/>
+            </a>
+            <nav className='menu'>
+                <ul className='menus'>
                     <li>
                         <a href='/'>Home</a>
+                    </li>
+                    <li>
                         <a href='#'>About</a>
-                        <a href='#'>Contact</a>
+                    </li>
+                    <li>
+                        <a href='#'>Contact Us</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </header>
     );
 }

@@ -1,8 +1,26 @@
 header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
     background-color: #eee;
     display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
-.logo img {
-    max-width: 160px;
+.logo > img {
+    max-width: 14em;
+}
+
+/* use later */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.menus {
+    display: flex;
+    gap: 4px;
 }
