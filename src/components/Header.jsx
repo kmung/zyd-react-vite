@@ -3,6 +3,8 @@ import './header.css';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import logoNoBg from '../assets/yd_logo-removebg.png';
+import { Button, Menu } from '@mui/material';
+import MenuItem from '@mui/material/MenuItem';
 
 function Header() {
     return (
@@ -11,18 +13,12 @@ function Header() {
                 <img id='logo' src={logoNoBg} alt='ZYD logo'/>
             </Link>
             <nav className='menu'>
-                <ul className='menus'>
-                    <li>
-                        <Link to='/'>Home</Link>
-                    </li>
-                    <li>
-                        <Link to='/about-us'>About Us</Link>
-                    </li>
-                    <li>
-                        <Link to='/contact-us'>Contact Us</Link>
-                    </li>
-                </ul>
+                <Button
+                    id='home-btn'
+                    >Home
+                </Button>
             </nav>
+            <Button disabled variant='outlined' className='donate-btn'>Donate</Button>
         </header>
     );
 }

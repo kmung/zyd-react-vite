@@ -1,5 +1,5 @@
 header {
-    position: fixed;
+    position: relative;
     left: 0;
     right: 0;
     width: 100%;
@@ -18,14 +18,5 @@ header {
     max-width: 14em;
 }
 
-/* use later */
-.menu {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
 
-.menus {
-    display: flex;
-    gap: 4px;
-}
+
