@@ -1,0 +1,25 @@
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button-primary {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+  
+.button-primary:hover {
+    background-color: var(--color-accent-light);
+}
+
+.button-outlined {
+    background-color: transparent;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-accent-medium);
+}
+
+.button-outlined:hover {
+    background-color: var(--color-accent-light);
+    color: #fff;
+}

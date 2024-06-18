@@ -36,6 +36,19 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 3.2em;
+  color: var(--color-primary);
+}
+
+h2, h3 {
+  color: var(--color-secondary);
+}
+
+h4, h5, h6 {
+  color: var(--color-tertiary);
+}
+
 a {
   font-weight: 500;
   text-decoration: none;
@@ -44,13 +57,9 @@ a:hover {
   color: var(--color-accent-light)
 }
 
-h1 {
-  font-size: 3.2em;
-  color: var(--color-primary);
-}
-
 button {
   cursor: pointer;
+  border: none;
 }
 button:hover {
   border-color: var(--color-accent-light);

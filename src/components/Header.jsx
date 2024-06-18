@@ -3,8 +3,7 @@ import './header.css';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import logoNoBg from '../assets/yd_logo-removebg.png';
-import { Button, Menu } from '@mui/material';
-import MenuItem from '@mui/material/MenuItem';
+import Button from './Button';
 
 function Header() {
     return (
@@ -18,7 +17,7 @@ function Header() {
                     >Home
                 </Button>
             </nav>
-            <Button disabled variant='outlined' className='donate-btn'>Donate</Button>
+            <Button variant='outlined' className='donate-btn'>Donate</Button>
         </header>
     );
 }
