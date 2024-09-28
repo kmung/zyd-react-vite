@@ -1,22 +1,39 @@
 header {
-    position: relative;
+    position: absolute;
+    z-index: 2;
+    top : 0;
     left: 0;
     right: 0;
     width: 100%;
-    background-color: #eee;
+    height: 7em;
+    background-color: rgba(255, 255, 255, 0.175);
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 4px;
+    padding: 0 1em 0 1em;
 }
 
 /* for later */
 .brand {
-    margin: 0;
+    display: flex;
+    align-items: center;
+    margin: 1em 0 0em 1em;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #logo {
-    max-width: 14em;
+    max-width: 10.75em;
 }
 
+header .menu {
+    display: flex;
+    gap: 0.75rem;
+    margin-left: auto;
+    margin-right: 1em;
+}
 
 

@@ -16,6 +16,9 @@ function Header() {
                     id='home-btn'
                     >Home
                 </Button>
+                <Button id='about-us-btn'>About Us</Button>
+                <Button id='what-we-do-btn'>What We Do</Button>
+                <Button id='contact-us-btn'>Contact Us</Button>
             </nav>
             <Button variant='outlined' className='donate-btn'>Donate</Button>
         </header>

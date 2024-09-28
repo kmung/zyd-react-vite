@@ -13,7 +13,7 @@
 
   /* colors */
   --background-color-light: #fff;
-  --background-color-grey: #636466;
+  --background-color-grey: #c4c5c5b4;
 
   --color-primary: #0060af;
   --color-secondary: #0089d0;
@@ -37,7 +37,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3em;
   color: var(--color-primary);
 }
 
