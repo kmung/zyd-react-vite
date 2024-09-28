@@ -1,5 +1,5 @@
 header {
-    position: absolute;
+    position: fixed;
     z-index: 2;
     top : 0;
     left: 0;
@@ -12,9 +12,13 @@ header {
     justify-content: space-between;
     gap: 4px;
     padding: 0 1em 0 1em;
+    transition: background-color 0.3s ease;
 }
 
-/* for later */
+header.scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
 .brand {
     display: flex;
     align-items: center;

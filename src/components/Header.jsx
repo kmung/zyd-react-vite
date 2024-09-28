@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
 import AboutUs from './pages/AboutUs';
@@ -6,8 +7,25 @@ import logoNoBg from '../assets/yd_logo-removebg.png';
 import Button from './Button';
 
 function Header() {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 20) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
-        <header>
+        <header className={scrolled ? 'scrolled' : ''}>
             <Link to='/' className='brand'>
                 <img id='logo' src={logoNoBg} alt='ZYD logo'/>
             </Link>

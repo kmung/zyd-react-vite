@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './components/pages/Home';
 import AboutUs from './components/pages/AboutUs';
 import ContactUs from './components/pages/ContactUs';
@@ -17,6 +18,7 @@ function App() {
         <Route path='/contact-us' element={<ContactUs />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   )
 }
