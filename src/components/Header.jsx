@@ -26,15 +26,18 @@ function Header() {
 
     return (
         <header className={scrolled ? 'scrolled' : ''}>
-            <Link to='/' className='brand'>
-                <img id='logo' src={logoNoBg} alt='ZYD logo'/>
-            </Link>
+            <div className='brand'>
+                <Link to='/'>
+                    <img id='logo' src={logoNoBg} alt='ZYD logo'/>
+                </Link>
+            </div>
             <nav className='menu'>
-                <Button
-                    id='home-btn'
-                    >Home
-                </Button>
-                <Button id='about-us-btn'>About Us</Button>
+                <Link to='/'>
+                    <Button id='home-btn'>Home</Button>
+                </Link>
+                <Link to='/about-us'>
+                    <Button id='about-us-btn'>About Us</Button>
+                </Link>
                 <Button id='what-we-do-btn'>What We Do</Button>
                 <Button id='contact-us-btn'>Contact Us</Button>
             </nav>
