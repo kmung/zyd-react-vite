@@ -3,13 +3,8 @@
 
 :root {
   /* fonts */
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --line-height: 1.5;
 
   /* colors */
   --background-color-light: #fff;
@@ -24,10 +19,17 @@
 }
 
 body {
+  font-family: var(--font-family);
+  line-height: var(--line-height);
   background-color: var(--background-color-light);
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
 *,*::after,*::before {
@@ -36,8 +38,12 @@ body {
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  line-height: inherit;
+}
+
 h1 {
-  font-size: 3em;
   color: var(--color-primary);
 }
 
@@ -54,7 +60,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: var(--color-accent-light)
+  color: var(--color-accent-light);
 }
 
 button {
