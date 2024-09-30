@@ -3,13 +3,13 @@ import './aboutus.css';
 import missionImage from '../../assets/mission.jpg';
 import visionImage from '../../assets/vision.jpg';
 import teamImage from '../../assets/team.jpg';
+import Cover from '../Cover';
+import coverImage from '../../assets/img3.jpg';
 
 function AboutUs() {
   return (
     <div className="about-us">
-      <div className="cover">
-        <h1>Who We Are</h1>
-      </div>
+      <Cover title='Who We Are' backgroundImage={coverImage} />
       <section className="mission">
         <h1>Our Mission</h1>
         <img src={missionImage} alt="Mission" />

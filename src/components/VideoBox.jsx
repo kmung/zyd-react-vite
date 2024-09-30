@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './VideoBox.css';
+import './videobox.css';
 
 const VideoBox = ({ src, title }) => {
     return (

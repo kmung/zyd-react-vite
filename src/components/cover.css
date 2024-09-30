@@ -1,0 +1,17 @@
+.cover {
+    width: 100vw; /* Ensure the cover section takes the full viewport width */
+    margin-left: calc(50% - 50vw); /* Center the cover section */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .cover h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
