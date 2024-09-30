@@ -14,7 +14,7 @@ function Home() {
         </div>
         <section className='yd-theme-video'>
             <div className='video-color-banner'></div>
-            <VideoBox src='https://www.youtube.com/embed/PLuHDYufJRM?si=VeGebn5-6uru1Ns5' title='Zomi Youth Development Theme Video' />
+            <VideoBox src='https://www.youtube.com/embed/PLuHDYufJRM?si=VeGebn5-6uru1Ns5' title='YD Theme Video' />
         </section>
         </>
     );

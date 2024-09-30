@@ -36,8 +36,12 @@ function Header() {
                 <Link to='/about-us'>
                     <Button id='about-us-btn'>About Us</Button>
                 </Link>
-                <Button id='what-we-do-btn'>What We Do</Button>
-                <Button id='contact-us-btn'>Contact Us</Button>
+                <Link to='/what-we-do'>
+                    <Button id='what-we-do-btn'>What We Do</Button>
+                </Link>
+                <Link to='/contact-us'>
+                    <Button id='contact-us-btn'>Contact Us</Button>
+                </Link>
             </nav>
             <Button variant='outlined' className='donate-btn'>Donate</Button>
         </header>

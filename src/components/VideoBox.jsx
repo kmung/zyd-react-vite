@@ -14,7 +14,9 @@ const VideoBox = ({ src, title }) => {
                     sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
                 ></iframe>
             </div>
-            {title && <h2 className="video-title">{title}</h2>}
+            <div className='video-description'>
+                {title && <h2 className="video-title">{title}</h2>}
+            </div>
         </div>
     );
 };
