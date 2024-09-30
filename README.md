@@ -8,6 +8,10 @@ After cloning this to your local development run the command to install dependen
 ```bash
     npm install
 ```
+or
+```bash
+    npm i
+```
 
 ### Make sure to create a development branch.
 Don't push new code to the main branch.

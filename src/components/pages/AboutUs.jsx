@@ -7,6 +7,9 @@ import teamImage from '../../assets/team.jpg';
 function AboutUs() {
   return (
     <div className="about-us">
+      <div className="cover">
+        <h1>Who We Are</h1>
+      </div>
       <section className="mission">
         <h1>Our Mission</h1>
         <img src={missionImage} alt="Mission" />

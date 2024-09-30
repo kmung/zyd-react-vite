@@ -8,9 +8,10 @@ function Footer() {
             <p>©2024 
                 <Link to='/'> Zomi YD</Link>
             </p>
+            <span> | </span>
            <p>
                 Made with ❤️ by
-                <a href='https://kmung.github.io/' target='_blank' rel='noreferrer nofollow'> KM</a>
+                <a href='https://kmung.github.io/' target='_blank' rel='noreferrer nofollow'>&nbsp;KM</a>
            </p>
         </footer>
     );
