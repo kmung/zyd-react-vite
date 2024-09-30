@@ -31,12 +31,22 @@ header.scrolled {
     transition: transform 0.3s ease;
 }
 
+.brand:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
 header.scrolled .brand {
     transform: scale(0.7);
 }
 
+header.scrolled .brand:hover {
+    transform: scale(0.8);
+}
+
 #logo {
-    max-width: 10.75em;
+    max-width: 10.5rem;
+    height: 10rem;
 }
 
 header.scrooled #logo {

@@ -11,28 +11,34 @@ function AboutUs() {
     <div className="about-us">
       <Cover title='Who We Are' backgroundImage={coverImage} />
       <section className="mission">
-        <h1>Our Mission</h1>
-        <img src={missionImage} alt="Mission" />
-        <p>Our mission is to empower the youth through technology and innovation...</p>
+        <div className='about-us-content'>
+          <h1>Our Mission</h1>
+          <img src={missionImage} alt="Mission" />
+          <p>Our mission is to empower the youth through technology and innovation...</p>
+        </div>
       </section>
       <section className="vision">
-        <h1>Our Vision</h1>
-        <img src={visionImage} alt="Vision" />
-        <p>Our vision is to create a world where every young person has the opportunity to succeed...</p>
+        <div className='about-us-content'>
+          <h1>Our Vision</h1>
+          <img src={visionImage} alt="Vision" />
+          <p>Our vision is to create a world where the youth are equipped with the necessary skills...</p>
+        </div>
       </section>
       <section className="team">
         <h1>Our Team</h1>
-        <img src={teamImage} alt="Team" />
         <div className="team-members">
-          <div className="team-member">
+          <div className='team-member'>
+            <img src={teamImage} alt="John Doe" />
             <h2>John Doe</h2>
             <p>CEO</p>
           </div>
           <div className="team-member">
+            <img src={teamImage} alt="Jane Smith" />
             <h2>Jane Smith</h2>
             <p>CTO</p>
           </div>
           <div className="team-member">
+            <img src={teamImage} alt="Emily Johnson" />
             <h2>Emily Johnson</h2>
             <p>COO</p>
           </div>

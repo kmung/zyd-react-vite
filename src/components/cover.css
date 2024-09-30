@@ -1,4 +1,7 @@
 .cover {
+    position: relative;
+    top: 0;
+    left: 0;
     width: 100vw; /* Ensure the cover section takes the full viewport width */
     margin-left: calc(50% - 50vw); /* Center the cover section */
     background-size: cover;

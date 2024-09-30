@@ -13,6 +13,7 @@
   --color-primary: #0060af;
   --color-secondary: #0089d0;
   --color-tertiary: #00aeef;
+  --color-tertiary-soft: #6fcceeda;
   --color-accent-light: #C6168D;
   --color-accent-medium: #92278F;
   --color-accent-dark: #5C2E91;
@@ -21,7 +22,7 @@
 body {
   font-family: var(--font-family);
   line-height: var(--line-height);
-  background-color: var(--background-color-light);
+  background-color: var(--background-color-grey);
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
